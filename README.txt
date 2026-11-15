@@ -10,7 +10,7 @@ DEPLOY LIVE ON VERCEL
   4. Check: https://your-site.vercel.app/api/index?r=ping   (it should show "db": "ok")
   5. Open the site. The first person to fill in "Set up the owner account" becomes the Owner.
 
-RUN LOCALLY (optional, needs Node 20+ and a Postgres URL, e.g. your Neon URL)
+RUN LOCALLY (optional, needs a current Node.js and a Postgres URL, e.g. your Neon URL)
   1. npm install
   2. Windows CMD:  set DATABASE_URL=your-postgres-url  &&  node server.js
   3. Open http://localhost:8000
